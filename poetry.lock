@@ -410,19 +410,19 @@ libcst = ["libcst (>=0.3.10)"]
 
 [[package]]
 name = "google-cloud-secret-manager"
-version = "2.22.1"
+version = "2.23.1"
 description = "Google Cloud Secret Manager API client library"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "google_cloud_secret_manager-2.22.1-py2.py3-none-any.whl", hash = "sha256:f18c5094d2d462a58d1ef23cd62895f68ad0adebf96f6b8612f35197a456908c"},
-    {file = "google_cloud_secret_manager-2.22.1.tar.gz", hash = "sha256:f245e505b429990388f0f92cd4a24d424a4c4cdc2acb866e52c24e7680d15e77"},
+    {file = "google_cloud_secret_manager-2.23.1-py2.py3-none-any.whl", hash = "sha256:ed9a58750ec24be46dc17ea9b6cb1e7088490921b810a3c365b3e28be82984a1"},
+    {file = "google_cloud_secret_manager-2.23.1.tar.gz", hash = "sha256:4d779ed5666b5c4a4e24e52f808b2e159b60fc68ed7b1f230ca491918632a114"},
 ]
 
 [package.dependencies]
 google-api-core = {version = ">=1.34.1,<2.0.dev0 || >=2.11.dev0,<3.0.0dev", extras = ["grpc"]}
 google-auth = ">=2.14.1,<2.24.0 || >2.24.0,<2.25.0 || >2.25.0,<3.0.0dev"
-grpc-google-iam-v1 = ">=0.12.4,<1.0.0dev"
+grpc-google-iam-v1 = ">=0.14.0,<1.0.0dev"
 proto-plus = [
     {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
     {version = ">=1.22.3,<2.0.0dev", markers = "python_version < \"3.13\""},
@@ -1172,4 +1172,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "6c486ef4f9b57fd121409e5c613532a611d1635b47034599b8a60c132b591baf"
+content-hash = "6cb4c5bb0d9172effcde6f9b4738467e10144920773ed291478cacac6ab7c295"
